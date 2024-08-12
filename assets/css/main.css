@@ -916,7 +916,7 @@ section,
 }
 
 .services .service-item.item-cyan i {
-  color: #0dcaf0;
+  color: blue;
 }
 
 .services .service-item.item-cyan:hover .icon i {
@@ -924,11 +924,11 @@ section,
 }
 
 .services .service-item.item-cyan:hover .icon path {
-  fill: #0dcaf0;
+  fill: blue;
 }
 
 .services .service-item.item-orange i {
-  color: #fd7e14;
+  color: black;
 }
 
 .services .service-item.item-orange:hover .icon i {
@@ -936,7 +936,7 @@ section,
 }
 
 .services .service-item.item-orange:hover .icon path {
-  fill: #fd7e14;
+  fill: #000;
 }
 
 .services .service-item.item-teal i {
