@@ -537,7 +537,7 @@ section,
 
 .hero:before {
   content: "";
-  background: color-mix(in srgb, var(--background-color), transparent 30%);
+  background: color-mix(in srgb, var(--background-color), transparent 100%);
   position: absolute;
   inset: 0;
   z-index: 2;
@@ -557,6 +557,7 @@ section,
 .hero p {
   margin: 5px 0 0 0;
   font-size: 26px;
+  color: white;
 }
 
 .hero p span {
@@ -571,7 +572,7 @@ section,
 .hero .social-links a {
   font-size: 20px;
   display: inline-block;
-  color: color-mix(in srgb, var(--default-color), transparent 30%);
+  color: color-mix(in srgb, rgb(102, 101, 101), transparent 10%);
   line-height: 1;
   margin-right: 20px;
   transition: 0.3s;
